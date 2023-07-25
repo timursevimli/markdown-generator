@@ -6,8 +6,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test-create": "node create-example.js",
-    "test-parse": "node parse-example.js"
+    "create": "node 1-create-single.js && node 2-create-multiple.js",
+    "parse": "node 3-parse-unformatted-md.js"
   },
   "keywords": [],
   "author": "Timur Sevimli",
